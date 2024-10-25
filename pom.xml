@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.3.4</version>
+		<version>3.3.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<packaging>war</packaging>
@@ -30,7 +30,7 @@
 	<properties>
 		<java.version>17</java.version>
 		<sonar.projectKey>spring.tomcat</sonar.projectKey>
-			<sonar.host.url>http://localhost:9000/tutorials?id=spring-sonar</sonar.host.url>
+			<sonar.host.url>http://localhost:9000</sonar.host.url>
 			<sonar.login>sqp_82c0b5d047d1f6eb1dab8c68b4db1bf11513441b</sonar.login>
 	</properties>
 	<dependencies>
